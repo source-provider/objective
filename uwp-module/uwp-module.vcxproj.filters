@@ -1,0 +1,1704 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="dependencies">
+      <UniqueIdentifier>{3f5d75c2-583c-4b2c-a0a3-70bf245ee0da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\roblox">
+      <UniqueIdentifier>{079e0fd0-facc-4bbd-83fd-4da00b8345a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utilities">
+      <UniqueIdentifier>{ad6633b7-7d5a-4b03-ab7a-ff07ced761b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utilities\hashing">
+      <UniqueIdentifier>{3af7395e-0cb5-42c1-929c-71b0d8bdaec9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utilities\utils">
+      <UniqueIdentifier>{c0438267-028d-4fc5-ace3-04c1ea0c266d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\roblox\exploit">
+      <UniqueIdentifier>{4b8e4de5-5644-45af-b41b-e475f0d6d423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\roblox\miscellaneous">
+      <UniqueIdentifier>{811abc33-0f16-41e0-abb9-e4c9d756bbda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\roblox\security">
+      <UniqueIdentifier>{e51fb4e6-0c13-4965-bb62-408cff7406d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\roblox\security\obfuscation">
+      <UniqueIdentifier>{a5bc7a69-61db-4cb3-8c27-00065c8d127e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\roblox\miscellaneous\data">
+      <UniqueIdentifier>{8e28db4c-bb23-4d91-829f-778f828dba3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\roblox\miscellaneous\storage">
+      <UniqueIdentifier>{bc12d5bb-f032-4586-bf3a-7d6f30960eaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\roblox\miscellaneous\structures">
+      <UniqueIdentifier>{75425c91-aa44-41b5-b642-3e3cf9d60a3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\roblox\exploit\classes">
+      <UniqueIdentifier>{5f64df97-7857-46ac-a4ea-1782be7de884}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\roblox\exploit\environment">
+      <UniqueIdentifier>{70124201-a734-4ae7-9b48-d968f82100f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\roblox\exploit\execution">
+      <UniqueIdentifier>{d82971a1-d14c-42c2-9daf-59c032e68d60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\roblox\exploit\scheduler">
+      <UniqueIdentifier>{0c4393a9-ebb0-4cb9-8b72-6ab4fb6e64ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\cpr">
+      <UniqueIdentifier>{efbf9747-646f-42ae-8ec2-94916fee7ec1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\cryptopp">
+      <UniqueIdentifier>{debc61c2-f8e7-4281-b384-a0f127ee4ac2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\curl">
+      <UniqueIdentifier>{83d5661a-b42e-45c9-8cf7-22d3a5ce7b01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\imgui">
+      <UniqueIdentifier>{6237884a-e82e-4b7a-b778-cf6b4295ad57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\luau">
+      <UniqueIdentifier>{8969229f-2c56-4f4a-bf45-0ef48bce9d68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\lz4">
+      <UniqueIdentifier>{00164965-ad70-4720-a2ba-371bdd4c61a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\zstd">
+      <UniqueIdentifier>{06d17cc1-49fe-432f-9fe3-20a5c8c838c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\cpr\include">
+      <UniqueIdentifier>{d5c1dcb3-577a-4b45-9172-25124f041d5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\cpr\src">
+      <UniqueIdentifier>{5c90b1f6-f5b1-419c-bd84-a80caab2a0c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\cryptopp\include">
+      <UniqueIdentifier>{8fdce0ba-c1d0-4570-b7ff-0c10f5798d75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\cryptopp\lib">
+      <UniqueIdentifier>{0eabf13b-06ef-41fa-b76e-2215f2fd1fdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\curl\include">
+      <UniqueIdentifier>{4e8fd6f0-354b-4bfc-9c12-8325521c2d0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\curl\lib">
+      <UniqueIdentifier>{908c625d-a08f-4873-ab33-1675377de087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\imgui\include">
+      <UniqueIdentifier>{eb016618-5959-4354-8c6c-834e7df89aff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\imgui\src">
+      <UniqueIdentifier>{7cc8a505-6214-45fe-8752-797dfb540345}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\luau\ast">
+      <UniqueIdentifier>{77b3b056-80b9-4a6d-9e52-ff33a97105a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\luau\common">
+      <UniqueIdentifier>{d54c096c-85d8-4c81-b2dc-fa2947e55977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\luau\compiler">
+      <UniqueIdentifier>{c5dda3d9-e0e6-46ba-b9a4-e49b9f1febf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\luau\vm">
+      <UniqueIdentifier>{63fb10e4-07da-4e95-8971-bada553de083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\luau\ast\include">
+      <UniqueIdentifier>{d8fba2b9-01f7-4e10-b2ed-b9c9001fb12b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\luau\ast\src">
+      <UniqueIdentifier>{2e804714-53c2-4e6b-9838-846cdc26c37b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\luau\common\include">
+      <UniqueIdentifier>{213ceffd-92c0-48e6-b639-e77b5080fce0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\luau\compiler\include">
+      <UniqueIdentifier>{0968858b-add1-4ed3-b409-e3066e3a9422}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\luau\compiler\include\Luau">
+      <UniqueIdentifier>{7f54af80-6cf3-43c8-88c4-cfd1c4e1ec66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\luau\compiler\src">
+      <UniqueIdentifier>{cf8ef8a6-9ff6-4566-b783-bba06993931c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\luau\vm\include">
+      <UniqueIdentifier>{7a2f780d-725f-47de-bfb6-2703057751fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\luau\vm\src">
+      <UniqueIdentifier>{a42b7608-9f35-426d-9dff-cab8f8706f46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\lz4\include">
+      <UniqueIdentifier>{53d68a59-5533-4577-bf60-253ebf3bce00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\lz4\src">
+      <UniqueIdentifier>{ac4a906e-c9b1-4fab-92e2-671f4f9a580e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\zstd\include">
+      <UniqueIdentifier>{31e676b4-0878-40e5-b08a-b71d5ca75f20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\zstd\lib">
+      <UniqueIdentifier>{2adf783a-1e14-43f3-8d0c-b687cacae9c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\roblox\exploit\classes\bytecode">
+      <UniqueIdentifier>{69095379-c0aa-4bcf-80be-47724d483620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\roblox\exploit\classes\console">
+      <UniqueIdentifier>{674b3f70-26f3-484a-a07e-f6825e3dea87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\roblox\exploit\classes\instance">
+      <UniqueIdentifier>{8b6fa90e-fc79-44fb-bf87-60906b6f53e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\roblox\exploit\classes\vfhook">
+      <UniqueIdentifier>{2c203043-ed59-44de-8734-aa1d8d779c0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\roblox\exploit\environment\envs">
+      <UniqueIdentifier>{24f42ef0-f19b-429a-850e-584da31fbbc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\roblox\exploit\environment\envs\libraries">
+      <UniqueIdentifier>{53962c59-abbd-4660-9c21-77319e5960b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\roblox\miscellaneous\offsets">
+      <UniqueIdentifier>{3eace9d8-3566-4eea-8190-5bf3779924ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\roblox\exploit\classes\yield">
+      <UniqueIdentifier>{b4db8e41-1d24-430a-8538-c1705e88013b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\ixwebsocket">
+      <UniqueIdentifier>{8efc2eaf-8c9c-4e8b-a385-7246e02126fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\ixwebsocket\include">
+      <UniqueIdentifier>{1c239919-e04d-40bd-9a6f-1c964756d1fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\ixwebsocket\src">
+      <UniqueIdentifier>{a83dbd88-b190-42d0-ac05-af14ed408bdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\roblox\exploit\classes\renderer">
+      <UniqueIdentifier>{9ea9e4cb-897b-4ae9-be4e-3b0d3341ec0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\kiero">
+      <UniqueIdentifier>{2cac0e54-5d0f-4b1c-9ec9-ce32ed0e0bce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\kiero\include">
+      <UniqueIdentifier>{1ab03864-002b-457f-a31b-15b199f76686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\kiero\src">
+      <UniqueIdentifier>{b1e702f6-9919-4a9b-99a7-6592a250c1cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\MinHook">
+      <UniqueIdentifier>{d611c9fb-b3fc-49ec-a2db-e9fd18aa78ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\MinHook\include">
+      <UniqueIdentifier>{2210e101-c69c-4533-80cf-9e93f1ec3743}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\MinHook\src">
+      <UniqueIdentifier>{72cabfbc-93b4-4737-ab69-cbc04dbc504e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\source.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utilities\utils\utils.cpp">
+      <Filter>src\utilities\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\roblox\miscellaneous\storage\storage.cpp">
+      <Filter>src\roblox\miscellaneous\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\lz4\src\lz4.c">
+      <Filter>dependencies\lz4\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\lz4\src\lz4file.c">
+      <Filter>dependencies\lz4\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\lz4\src\lz4frame.c">
+      <Filter>dependencies\lz4\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\lz4\src\lz4hc.c">
+      <Filter>dependencies\lz4\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\luau\vm\src\lobject.cpp">
+      <Filter>dependencies\luau\vm\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\luau\vm\src\loslib.cpp">
+      <Filter>dependencies\luau\vm\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\luau\vm\src\lperf.cpp">
+      <Filter>dependencies\luau\vm\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\luau\vm\src\lstate.cpp">
+      <Filter>dependencies\luau\vm\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\luau\vm\src\lstring.cpp">
+      <Filter>dependencies\luau\vm\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\luau\vm\src\lstrlib.cpp">
+      <Filter>dependencies\luau\vm\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\luau\vm\src\ltable.cpp">
+      <Filter>dependencies\luau\vm\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\luau\vm\src\ltablib.cpp">
+      <Filter>dependencies\luau\vm\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\luau\vm\src\ltm.cpp">
+      <Filter>dependencies\luau\vm\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\luau\vm\src\ludata.cpp">
+      <Filter>dependencies\luau\vm\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\luau\vm\src\lutf8lib.cpp">
+      <Filter>dependencies\luau\vm\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\luau\vm\src\lvmexecute.cpp">
+      <Filter>dependencies\luau\vm\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\luau\vm\src\lvmload.cpp">
+      <Filter>dependencies\luau\vm\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\luau\vm\src\lvmutils.cpp">
+      <Filter>dependencies\luau\vm\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\luau\vm\src\lapi.cpp">
+      <Filter>dependencies\luau\vm\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\luau\vm\src\laux.cpp">
+      <Filter>dependencies\luau\vm\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\luau\vm\src\lbaselib.cpp">
+      <Filter>dependencies\luau\vm\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\luau\vm\src\lbitlib.cpp">
+      <Filter>dependencies\luau\vm\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\luau\vm\src\lbuiltins.cpp">
+      <Filter>dependencies\luau\vm\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\luau\vm\src\lcorolib.cpp">
+      <Filter>dependencies\luau\vm\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\luau\vm\src\ldblib.cpp">
+      <Filter>dependencies\luau\vm\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\luau\vm\src\ldebug.cpp">
+      <Filter>dependencies\luau\vm\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\luau\vm\src\ldo.cpp">
+      <Filter>dependencies\luau\vm\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\luau\vm\src\lfunc.cpp">
+      <Filter>dependencies\luau\vm\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\luau\vm\src\lgc.cpp">
+      <Filter>dependencies\luau\vm\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\luau\vm\src\lgcdebug.cpp">
+      <Filter>dependencies\luau\vm\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\luau\vm\src\linit.cpp">
+      <Filter>dependencies\luau\vm\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\luau\vm\src\lmathlib.cpp">
+      <Filter>dependencies\luau\vm\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\luau\vm\src\lmem.cpp">
+      <Filter>dependencies\luau\vm\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\luau\vm\src\lnumprint.cpp">
+      <Filter>dependencies\luau\vm\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\luau\compiler\src\BuiltinFolding.cpp">
+      <Filter>dependencies\luau\compiler\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\luau\compiler\src\Builtins.cpp">
+      <Filter>dependencies\luau\compiler\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\luau\compiler\src\BytecodeBuilder.cpp">
+      <Filter>dependencies\luau\compiler\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\luau\compiler\src\Compiler.cpp">
+      <Filter>dependencies\luau\compiler\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\luau\compiler\src\ConstantFolding.cpp">
+      <Filter>dependencies\luau\compiler\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\luau\compiler\src\CostModel.cpp">
+      <Filter>dependencies\luau\compiler\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\luau\compiler\src\lcode.cpp">
+      <Filter>dependencies\luau\compiler\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\luau\compiler\src\TableShape.cpp">
+      <Filter>dependencies\luau\compiler\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\luau\compiler\src\Types.cpp">
+      <Filter>dependencies\luau\compiler\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\luau\compiler\src\ValueTracking.cpp">
+      <Filter>dependencies\luau\compiler\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\luau\ast\src\Ast.cpp">
+      <Filter>dependencies\luau\ast\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\luau\ast\src\Confusables.cpp">
+      <Filter>dependencies\luau\ast\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\luau\ast\src\Lexer.cpp">
+      <Filter>dependencies\luau\ast\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\luau\ast\src\Location.cpp">
+      <Filter>dependencies\luau\ast\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\luau\ast\src\Parser.cpp">
+      <Filter>dependencies\luau\ast\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\luau\ast\src\StringUtils.cpp">
+      <Filter>dependencies\luau\ast\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\luau\ast\src\TimeTrace.cpp">
+      <Filter>dependencies\luau\ast\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\src\imgui.cpp">
+      <Filter>dependencies\imgui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\src\imgui_demo.cpp">
+      <Filter>dependencies\imgui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\src\imgui_draw.cpp">
+      <Filter>dependencies\imgui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\src\imgui_impl_dx11.cpp">
+      <Filter>dependencies\imgui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\src\imgui_widgets.cpp">
+      <Filter>dependencies\imgui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\src\TextEditor.cpp">
+      <Filter>dependencies\imgui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\cpr\src\auth.cpp">
+      <Filter>dependencies\cpr\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\cpr\src\cookies.cpp">
+      <Filter>dependencies\cpr\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\cpr\src\cprtypes.cpp">
+      <Filter>dependencies\cpr\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\cpr\src\digest.cpp">
+      <Filter>dependencies\cpr\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\cpr\src\error.cpp">
+      <Filter>dependencies\cpr\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\cpr\src\multipart.cpp">
+      <Filter>dependencies\cpr\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\cpr\src\parameters.cpp">
+      <Filter>dependencies\cpr\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\cpr\src\payload.cpp">
+      <Filter>dependencies\cpr\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\cpr\src\proxies.cpp">
+      <Filter>dependencies\cpr\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\cpr\src\session.cpp">
+      <Filter>dependencies\cpr\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\cpr\src\ssl_options.cpp">
+      <Filter>dependencies\cpr\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\cpr\src\timeout.cpp">
+      <Filter>dependencies\cpr\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\cpr\src\util.cpp">
+      <Filter>dependencies\cpr\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\roblox\security\anti-cheat.cpp">
+      <Filter>src\roblox\security</Filter>
+    </ClCompile>
+    <ClCompile Include="src\roblox\exploit\classes\bytecode\bytecode.cpp">
+      <Filter>src\roblox\exploit\classes\bytecode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\roblox\exploit\classes\console\console.cpp">
+      <Filter>src\roblox\exploit\classes\console</Filter>
+    </ClCompile>
+    <ClCompile Include="src\roblox\exploit\environment\envs\libraries\ecache.cpp">
+      <Filter>src\roblox\exploit\environment\envs\libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="src\roblox\exploit\environment\envs\eclosure.cpp">
+      <Filter>src\roblox\exploit\environment\envs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\roblox\exploit\environment\envs\econsole.cpp">
+      <Filter>src\roblox\exploit\environment\envs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\roblox\exploit\environment\envs\libraries\ecrypt.cpp">
+      <Filter>src\roblox\exploit\environment\envs\libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="src\roblox\exploit\environment\envs\libraries\edebug.cpp">
+      <Filter>src\roblox\exploit\environment\envs\libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="src\roblox\exploit\environment\envs\libraries\edrawing.cpp">
+      <Filter>src\roblox\exploit\environment\envs\libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="src\roblox\exploit\environment\envs\eenv.cpp">
+      <Filter>src\roblox\exploit\environment\envs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\roblox\exploit\environment\envs\efilesystem.cpp">
+      <Filter>src\roblox\exploit\environment\envs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\roblox\exploit\environment\envs\ehttp.cpp">
+      <Filter>src\roblox\exploit\environment\envs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\roblox\exploit\environment\envs\einit.cpp">
+      <Filter>src\roblox\exploit\environment\envs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\roblox\exploit\environment\envs\einput.cpp">
+      <Filter>src\roblox\exploit\environment\envs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\roblox\exploit\environment\envs\emetatable.cpp">
+      <Filter>src\roblox\exploit\environment\envs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\roblox\exploit\environment\environment.cpp">
+      <Filter>src\roblox\exploit\environment</Filter>
+    </ClCompile>
+    <ClCompile Include="src\roblox\exploit\environment\envs\libraries\eobjective.cpp">
+      <Filter>src\roblox\exploit\environment\envs\libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="src\roblox\exploit\environment\envs\eothers.cpp">
+      <Filter>src\roblox\exploit\environment\envs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\roblox\exploit\environment\envs\libraries\ewebsockets.cpp">
+      <Filter>src\roblox\exploit\environment\envs\libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="src\roblox\exploit\scheduler\scheduler.cpp">
+      <Filter>src\roblox\exploit\scheduler</Filter>
+    </ClCompile>
+    <ClCompile Include="src\roblox\exploit\execution\execution.cpp">
+      <Filter>src\roblox\exploit\execution</Filter>
+    </ClCompile>
+    <ClCompile Include="src\roblox\exploit\classes\instance\instance.cpp">
+      <Filter>src\roblox\exploit\classes\instance</Filter>
+    </ClCompile>
+    <ClCompile Include="src\roblox\exploit\classes\vfhook\vfhook.cpp">
+      <Filter>src\roblox\exploit\classes\vfhook</Filter>
+    </ClCompile>
+    <ClCompile Include="src\roblox\exploit\classes\yield\yield.cpp">
+      <Filter>src\roblox\exploit\classes\yield</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\ixwebsocket\include\ixwebsocket\IXBench.cpp">
+      <Filter>dependencies\ixwebsocket\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\ixwebsocket\include\ixwebsocket\IXCancellationRequest.cpp">
+      <Filter>dependencies\ixwebsocket\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\ixwebsocket\include\ixwebsocket\IXConnectionState.cpp">
+      <Filter>dependencies\ixwebsocket\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\ixwebsocket\include\ixwebsocket\IXDNSLookup.cpp">
+      <Filter>dependencies\ixwebsocket\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\ixwebsocket\include\ixwebsocket\IXExponentialBackoff.cpp">
+      <Filter>dependencies\ixwebsocket\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\ixwebsocket\include\ixwebsocket\IXGetFreePort.cpp">
+      <Filter>dependencies\ixwebsocket\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\ixwebsocket\include\ixwebsocket\IXGzipCodec.cpp">
+      <Filter>dependencies\ixwebsocket\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\ixwebsocket\include\ixwebsocket\IXHttp.cpp">
+      <Filter>dependencies\ixwebsocket\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\ixwebsocket\include\ixwebsocket\IXHttpClient.cpp">
+      <Filter>dependencies\ixwebsocket\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\ixwebsocket\include\ixwebsocket\IXHttpServer.cpp">
+      <Filter>dependencies\ixwebsocket\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\ixwebsocket\include\ixwebsocket\IXNetSystem.cpp">
+      <Filter>dependencies\ixwebsocket\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\ixwebsocket\include\ixwebsocket\IXSelectInterrupt.cpp">
+      <Filter>dependencies\ixwebsocket\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\ixwebsocket\include\ixwebsocket\IXSelectInterruptEvent.cpp">
+      <Filter>dependencies\ixwebsocket\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\ixwebsocket\include\ixwebsocket\IXSelectInterruptFactory.cpp">
+      <Filter>dependencies\ixwebsocket\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\ixwebsocket\include\ixwebsocket\IXSelectInterruptPipe.cpp">
+      <Filter>dependencies\ixwebsocket\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\ixwebsocket\include\ixwebsocket\IXSetThreadName.cpp">
+      <Filter>dependencies\ixwebsocket\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\ixwebsocket\include\ixwebsocket\IXSocket.cpp">
+      <Filter>dependencies\ixwebsocket\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\ixwebsocket\include\ixwebsocket\IXSocketAppleSSL.cpp">
+      <Filter>dependencies\ixwebsocket\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\ixwebsocket\include\ixwebsocket\IXSocketConnect.cpp">
+      <Filter>dependencies\ixwebsocket\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\ixwebsocket\include\ixwebsocket\IXSocketFactory.cpp">
+      <Filter>dependencies\ixwebsocket\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\ixwebsocket\include\ixwebsocket\IXSocketMbedTLS.cpp">
+      <Filter>dependencies\ixwebsocket\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\ixwebsocket\include\ixwebsocket\IXSocketOpenSSL.cpp">
+      <Filter>dependencies\ixwebsocket\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\ixwebsocket\include\ixwebsocket\IXSocketServer.cpp">
+      <Filter>dependencies\ixwebsocket\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\ixwebsocket\include\ixwebsocket\IXSocketTLSOptions.cpp">
+      <Filter>dependencies\ixwebsocket\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\ixwebsocket\include\ixwebsocket\IXStrCaseCompare.cpp">
+      <Filter>dependencies\ixwebsocket\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\ixwebsocket\include\ixwebsocket\IXUdpSocket.cpp">
+      <Filter>dependencies\ixwebsocket\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\ixwebsocket\include\ixwebsocket\IXUrlParser.cpp">
+      <Filter>dependencies\ixwebsocket\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\ixwebsocket\include\ixwebsocket\IXUserAgent.cpp">
+      <Filter>dependencies\ixwebsocket\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\ixwebsocket\include\ixwebsocket\IXUuid.cpp">
+      <Filter>dependencies\ixwebsocket\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\ixwebsocket\include\ixwebsocket\IXWebSocket.cpp">
+      <Filter>dependencies\ixwebsocket\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\ixwebsocket\include\ixwebsocket\IXWebSocketCloseConstants.cpp">
+      <Filter>dependencies\ixwebsocket\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\ixwebsocket\include\ixwebsocket\IXWebSocketHandshake.cpp">
+      <Filter>dependencies\ixwebsocket\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\ixwebsocket\include\ixwebsocket\IXWebSocketHttpHeaders.cpp">
+      <Filter>dependencies\ixwebsocket\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\ixwebsocket\include\ixwebsocket\IXWebSocketPerMessageDeflate.cpp">
+      <Filter>dependencies\ixwebsocket\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\ixwebsocket\include\ixwebsocket\IXWebSocketPerMessageDeflateCodec.cpp">
+      <Filter>dependencies\ixwebsocket\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\ixwebsocket\include\ixwebsocket\IXWebSocketPerMessageDeflateOptions.cpp">
+      <Filter>dependencies\ixwebsocket\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\ixwebsocket\include\ixwebsocket\IXWebSocketProxyServer.cpp">
+      <Filter>dependencies\ixwebsocket\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\ixwebsocket\include\ixwebsocket\IXWebSocketServer.cpp">
+      <Filter>dependencies\ixwebsocket\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\ixwebsocket\include\ixwebsocket\IXWebSocketTransport.cpp">
+      <Filter>dependencies\ixwebsocket\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\kiero\src\kiero.cpp">
+      <Filter>dependencies\kiero\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\MinHook\src\trampoline.c">
+      <Filter>dependencies\MinHook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\MinHook\src\buffer.c">
+      <Filter>dependencies\MinHook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\MinHook\src\hde32.c">
+      <Filter>dependencies\MinHook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\MinHook\src\hde64.c">
+      <Filter>dependencies\MinHook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\MinHook\src\hook.c">
+      <Filter>dependencies\MinHook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\roblox\exploit\classes\render\render.cpp">
+      <Filter>src\roblox\exploit\classes\renderer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\utilities\utils\utils.h">
+      <Filter>src\utilities\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\roblox\security\obfuscation\member.h">
+      <Filter>src\roblox\security\obfuscation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\roblox\security\obfuscation\number.h">
+      <Filter>src\roblox\security\obfuscation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\roblox\security\obfuscation\string.h">
+      <Filter>src\roblox\security\obfuscation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\roblox\security\obfuscation\random.h">
+      <Filter>src\roblox\security\obfuscation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utilities\fill.h">
+      <Filter>src\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\roblox\miscellaneous\configuration.hpp">
+      <Filter>src\roblox\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="src\roblox\miscellaneous\storage\storage.h">
+      <Filter>src\roblox\miscellaneous\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utilities\hashing\fnv.h">
+      <Filter>src\utilities\hashing</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\zstd\include\zstd\xxhash.h">
+      <Filter>dependencies\zstd\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\zstd\include\zstd\zstd.h">
+      <Filter>dependencies\zstd\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\lz4\include\lz4\lz4.h">
+      <Filter>dependencies\lz4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\lz4\include\lz4\lz4file.h">
+      <Filter>dependencies\lz4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\lz4\include\lz4\lz4frame.h">
+      <Filter>dependencies\lz4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\lz4\include\lz4\lz4frame_static.h">
+      <Filter>dependencies\lz4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\lz4\include\lz4\lz4hc.h">
+      <Filter>dependencies\lz4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\luau\vm\src\lapi.h">
+      <Filter>dependencies\luau\vm\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\luau\vm\src\lbuiltins.h">
+      <Filter>dependencies\luau\vm\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\luau\vm\src\lbytecode.h">
+      <Filter>dependencies\luau\vm\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\luau\vm\src\lcommon.h">
+      <Filter>dependencies\luau\vm\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\luau\vm\src\ldebug.h">
+      <Filter>dependencies\luau\vm\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\luau\vm\src\ldo.h">
+      <Filter>dependencies\luau\vm\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\luau\vm\src\lfunc.h">
+      <Filter>dependencies\luau\vm\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\luau\vm\src\lgc.h">
+      <Filter>dependencies\luau\vm\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\luau\vm\src\lmem.h">
+      <Filter>dependencies\luau\vm\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\luau\vm\src\lnumutils.h">
+      <Filter>dependencies\luau\vm\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\luau\vm\src\lstate.h">
+      <Filter>dependencies\luau\vm\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\luau\vm\src\lobject.h">
+      <Filter>dependencies\luau\vm\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\luau\vm\src\lstring.h">
+      <Filter>dependencies\luau\vm\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\luau\vm\src\ltable.h">
+      <Filter>dependencies\luau\vm\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\luau\vm\src\ltm.h">
+      <Filter>dependencies\luau\vm\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\luau\vm\src\ludata.h">
+      <Filter>dependencies\luau\vm\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\luau\vm\src\lvm.h">
+      <Filter>dependencies\luau\vm\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\luau\vm\include\lua.h">
+      <Filter>dependencies\luau\vm\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\luau\vm\include\luaconf.h">
+      <Filter>dependencies\luau\vm\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\luau\vm\include\lualib.h">
+      <Filter>dependencies\luau\vm\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\luau\compiler\src\ValueTracking.h">
+      <Filter>dependencies\luau\compiler\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\luau\compiler\src\Types.h">
+      <Filter>dependencies\luau\compiler\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\luau\compiler\src\TableShape.h">
+      <Filter>dependencies\luau\compiler\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\luau\compiler\src\CostModel.h">
+      <Filter>dependencies\luau\compiler\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\luau\compiler\src\ConstantFolding.h">
+      <Filter>dependencies\luau\compiler\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\luau\compiler\src\Builtins.h">
+      <Filter>dependencies\luau\compiler\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\luau\compiler\src\BuiltinFolding.h">
+      <Filter>dependencies\luau\compiler\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\luau\compiler\include\luacode.h">
+      <Filter>dependencies\luau\compiler\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\luau\compiler\include\Luau\BytecodeBuilder.h">
+      <Filter>dependencies\luau\compiler\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\luau\compiler\include\Luau\Compiler.h">
+      <Filter>dependencies\luau\compiler\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\luau\common\include\Luau\Bytecode.h">
+      <Filter>dependencies\luau\common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\luau\common\include\Luau\Common.h">
+      <Filter>dependencies\luau\common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\luau\common\include\Luau\DenseHash.h">
+      <Filter>dependencies\luau\common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\luau\common\include\Luau\ExperimentalFlags.h">
+      <Filter>dependencies\luau\common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\luau\ast\include\Luau\Ast.h">
+      <Filter>dependencies\luau\ast\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\luau\ast\include\Luau\Confusables.h">
+      <Filter>dependencies\luau\ast\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\luau\ast\include\Luau\Lexer.h">
+      <Filter>dependencies\luau\ast\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\luau\ast\include\Luau\Location.h">
+      <Filter>dependencies\luau\ast\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\luau\ast\include\Luau\ParseOptions.h">
+      <Filter>dependencies\luau\ast\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\luau\ast\include\Luau\Parser.h">
+      <Filter>dependencies\luau\ast\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\luau\ast\include\Luau\ParseResult.h">
+      <Filter>dependencies\luau\ast\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\luau\ast\include\Luau\StringUtils.h">
+      <Filter>dependencies\luau\ast\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\luau\ast\include\Luau\TimeTrace.h">
+      <Filter>dependencies\luau\ast\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\include\imgui\imconfig.h">
+      <Filter>dependencies\imgui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\include\imgui\imgui.h">
+      <Filter>dependencies\imgui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\include\imgui\imgui_impl_dx11.h">
+      <Filter>dependencies\imgui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\include\imgui\imgui_internal.h">
+      <Filter>dependencies\imgui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\include\imgui\imstb_rectpack.h">
+      <Filter>dependencies\imgui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\include\imgui\imstb_textedit.h">
+      <Filter>dependencies\imgui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\include\imgui\imstb_truetype.h">
+      <Filter>dependencies\imgui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\include\imgui\stb_rect_pack.h">
+      <Filter>dependencies\imgui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\include\imgui\stb_textedit.h">
+      <Filter>dependencies\imgui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\include\imgui\stb_truetype.h">
+      <Filter>dependencies\imgui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\include\imgui\TextEditor.h">
+      <Filter>dependencies\imgui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\curl\include\curl\curl.h">
+      <Filter>dependencies\curl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\curl\include\curl\curlver.h">
+      <Filter>dependencies\curl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\curl\include\curl\easy.h">
+      <Filter>dependencies\curl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\curl\include\curl\mprintf.h">
+      <Filter>dependencies\curl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\curl\include\curl\multi.h">
+      <Filter>dependencies\curl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\curl\include\curl\stdcheaders.h">
+      <Filter>dependencies\curl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\curl\include\curl\system.h">
+      <Filter>dependencies\curl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\curl\include\curl\typecheck-gcc.h">
+      <Filter>dependencies\curl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\curl\include\curl\urlapi.h">
+      <Filter>dependencies\curl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\3way.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\adler32.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\adv_simd.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\aes.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\aes_armv4.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\algebra.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\algparam.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\arc4.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\argnames.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\aria.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\arm_simd.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\asn.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\authenc.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\base32.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\base64.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\basecode.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\bench.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\blake2.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\blowfish.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\blumshub.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\camellia.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\cast.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\cbcmac.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\ccm.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\chacha.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\chachapoly.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\cham.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\channels.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\cmac.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\config.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\cpu.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\crc.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\cryptlib.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\darn.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\default.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\des.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\dh.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\dh2.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\dll.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\dmac.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\donna.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\donna_32.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\donna_64.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\donna_sse.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\drbg.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\dsa.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\eax.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\ec2n.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\eccrypto.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\ecp.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\ecpoint.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\elgamal.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\emsa2.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\eprecomp.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\esign.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\factory.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\fhmqv.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\files.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\filters.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\fips140.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\fltrimpl.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\gcm.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\gf256.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\gf2n.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\gf2_32.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\gfpcrypt.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\gost.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\gzip.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\hashfwd.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\hc128.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\hc256.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\hex.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\hight.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\hkdf.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\hmac.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\hmqv.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\hrtimer.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\ida.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\idea.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\integer.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\iterhash.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\kalyna.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\keccak.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\lea.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\lubyrack.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\luc.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\mars.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\md2.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\md4.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\md5.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\mdc.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\mersenne.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\misc.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\modarith.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\modes.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\modexppc.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\mqueue.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\mqv.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\naclite.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\nbtheory.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\nr.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\oaep.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\oids.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\osrng.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\ossig.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\padlkrng.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\panama.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\pch.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\pkcspad.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\poly1305.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\polynomi.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\ppc_simd.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\pssr.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\pubkey.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\pwdbased.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\queue.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\rabbit.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\rabin.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\randpool.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\rc2.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\rc5.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\rc6.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\rdrand.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\resource.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\rijndael.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\ripemd.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\rng.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\rsa.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\rw.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\safer.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\salsa.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\scrypt.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\seal.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\secblock.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\seckey.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\seed.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\serpent.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\serpentp.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\sha.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\sha3.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\shacal2.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\shake.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\shark.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\simeck.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\simon.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\simple.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\siphash.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\skipjack.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\sm3.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\sm4.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\smartptr.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\sosemanuk.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\speck.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\square.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\stdcpp.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\strciphr.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\tea.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\threefish.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\tiger.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\trap.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\trunhash.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\ttmac.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\tweetnacl.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\twofish.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\validate.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\vmac.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\wake.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\whrlpool.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\words.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\xed25519.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\xtr.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\xtrcrypt.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\zdeflate.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\zinflate.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cryptopp\include\cryptopp\zlib.h">
+      <Filter>dependencies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cpr\include\cpr\api.h">
+      <Filter>dependencies\cpr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cpr\include\cpr\auth.h">
+      <Filter>dependencies\cpr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cpr\include\cpr\body.h">
+      <Filter>dependencies\cpr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cpr\include\cpr\cookies.h">
+      <Filter>dependencies\cpr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cpr\include\cpr\cpr.h">
+      <Filter>dependencies\cpr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cpr\include\cpr\cprtypes.h">
+      <Filter>dependencies\cpr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cpr\include\cpr\curlholder.h">
+      <Filter>dependencies\cpr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cpr\include\cpr\defines.h">
+      <Filter>dependencies\cpr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cpr\include\cpr\digest.h">
+      <Filter>dependencies\cpr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cpr\include\cpr\error.h">
+      <Filter>dependencies\cpr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cpr\include\cpr\HttpStatus.hpp">
+      <Filter>dependencies\cpr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cpr\include\cpr\low_speed.h">
+      <Filter>dependencies\cpr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cpr\include\cpr\max_redirects.h">
+      <Filter>dependencies\cpr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cpr\include\cpr\multipart.h">
+      <Filter>dependencies\cpr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cpr\include\cpr\parameters.h">
+      <Filter>dependencies\cpr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cpr\include\cpr\payload.h">
+      <Filter>dependencies\cpr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cpr\include\cpr\proxies.h">
+      <Filter>dependencies\cpr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cpr\include\cpr\response.h">
+      <Filter>dependencies\cpr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cpr\include\cpr\session.h">
+      <Filter>dependencies\cpr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cpr\include\cpr\ssl_options.h">
+      <Filter>dependencies\cpr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cpr\include\cpr\timeout.h">
+      <Filter>dependencies\cpr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\cpr\include\cpr\util.h">
+      <Filter>dependencies\cpr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\roblox\exploit\environment\environment.h">
+      <Filter>src\roblox\exploit\environment</Filter>
+    </ClInclude>
+    <ClInclude Include="src\roblox\exploit\scheduler\scheduler.h">
+      <Filter>src\roblox\exploit\scheduler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\roblox\exploit\execution\execution.h">
+      <Filter>src\roblox\exploit\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="src\roblox\exploit\classes\bytecode\bytecode.h">
+      <Filter>src\roblox\exploit\classes\bytecode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\roblox\exploit\classes\console\console.h">
+      <Filter>src\roblox\exploit\classes\console</Filter>
+    </ClInclude>
+    <ClInclude Include="src\roblox\exploit\classes\instance\instance.h">
+      <Filter>src\roblox\exploit\classes\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="src\roblox\exploit\classes\vfhook\vfhook.h">
+      <Filter>src\roblox\exploit\classes\vfhook</Filter>
+    </ClInclude>
+    <ClInclude Include="src\roblox\miscellaneous\offsets\addresses.h">
+      <Filter>src\roblox\miscellaneous\offsets</Filter>
+    </ClInclude>
+    <ClInclude Include="src\roblox\miscellaneous\offsets\offsets.h">
+      <Filter>src\roblox\miscellaneous\offsets</Filter>
+    </ClInclude>
+    <ClInclude Include="src\roblox\miscellaneous\structures\teb.h">
+      <Filter>src\roblox\miscellaneous\structures</Filter>
+    </ClInclude>
+    <ClInclude Include="src\roblox\miscellaneous\data\fonts.h">
+      <Filter>src\roblox\miscellaneous\data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\roblox\miscellaneous\structures\encryptions.h">
+      <Filter>src\roblox\miscellaneous\structures</Filter>
+    </ClInclude>
+    <ClInclude Include="src\roblox\exploit\classes\yield\yield.h">
+      <Filter>src\roblox\exploit\classes\yield</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXBase64.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXBench.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXCancellationRequest.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXConnectionState.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXDNSLookup.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXExponentialBackoff.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXGetFreePort.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXGzipCodec.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXHttp.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXHttpClient.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXHttpServer.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXNetSystem.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXProgressCallback.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXSelectInterrupt.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXSelectInterruptEvent.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXSelectInterruptFactory.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXSelectInterruptPipe.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXSetThreadName.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXSocket.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXSocketConnect.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXSocketFactory.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXSocketMbedTLS.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXSocketServer.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXSocketTLSOptions.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXStrCaseCompare.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXUdpSocket.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXUniquePtr.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXUrlParser.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXUserAgent.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXUtf8Validator.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXUuid.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXWebSocket.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXWebSocketCloseConstants.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXWebSocketCloseInfo.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXWebSocketErrorInfo.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXWebSocketHandshake.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXWebSocketHandshakeKeyGen.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXWebSocketHttpHeaders.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXWebSocketInitResult.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXWebSocketMessage.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXWebSocketMessageType.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXWebSocketOpenInfo.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXWebSocketPerMessageDeflate.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXWebSocketPerMessageDeflateCodec.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXWebSocketPerMessageDeflateOptions.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXWebSocketProxyServer.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXWebSocketSendData.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXWebSocketSendInfo.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXWebSocketServer.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXWebSocketTransport.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXWebSocketVersion.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXSocketAppleSSL.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\ixwebsocket\include\ixwebsocket\IXSocketOpenSSL.h">
+      <Filter>dependencies\ixwebsocket\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\kiero\include\kiero\kiero.h">
+      <Filter>dependencies\kiero\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\MinHook\include\MinHook\buffer.h">
+      <Filter>dependencies\MinHook\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\MinHook\include\MinHook\hde32.h">
+      <Filter>dependencies\MinHook\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\MinHook\include\MinHook\hde64.h">
+      <Filter>dependencies\MinHook\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\MinHook\include\MinHook\MinHook.h">
+      <Filter>dependencies\MinHook\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\MinHook\include\MinHook\pstdint.h">
+      <Filter>dependencies\MinHook\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\MinHook\include\MinHook\table32.h">
+      <Filter>dependencies\MinHook\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\MinHook\include\MinHook\table64.h">
+      <Filter>dependencies\MinHook\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\MinHook\include\MinHook\trampoline.h">
+      <Filter>dependencies\MinHook\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\roblox\exploit\classes\render\render.h">
+      <Filter>src\roblox\exploit\classes\renderer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="dependencies\zstd\lib\libzstd_static.lib">
+      <Filter>dependencies\zstd\lib</Filter>
+    </Library>
+    <Library Include="dependencies\curl\lib\libcurl_a.lib">
+      <Filter>dependencies\curl\lib</Filter>
+    </Library>
+    <Library Include="dependencies\cryptopp\lib\cryptlib.lib">
+      <Filter>dependencies\cryptopp\lib</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
